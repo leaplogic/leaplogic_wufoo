@@ -6,3 +6,15 @@ html.embed { background-color: transparent!important; }
 .wufoo .info h2 { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 28px; text-transform: uppercase; color: #1d1d1d; margin-bottom: 20px; letter-spacing: 1px; font-weight: 400; }
 .wufoo .info div { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 16px; color: #5C5C5C; line-height: 1.6; font-weight: 400; }
 .wufoo input { box-shadow: none; background: #FFF!important; border: 1px solid #b6b6b6; }
+.wufoo input[type="submit"] {
+  background: #1ABC9C!important;
+color: #FFF;
+text-transform: uppercase;
+font-family: "proxima-nova2", helvetica, arial, sans-serif;
+font-size: 14px;
+padding: 8px 20px;
+letter-spacing: 1px;
+border: 0;
+border-radius: 2px;
+cursor: pointer;
+}
