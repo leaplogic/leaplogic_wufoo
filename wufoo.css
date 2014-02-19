@@ -2,3 +2,7 @@ html.embed { background-color: transparent!important; }
 .wufoo .info h2 { font-family: "proxima-nova", helvetica, arial, sans-serif; font-size: 28px; text-transform: uppercase; color: #1d1d1d; margin-bottom: 20px; letter-spacing: 1px; font-weight: 400; }
 .wufoo .info div { font-family: "proxima-nova", helvetica, arial, sans-serif; font-size: 16px; color: #5C5C5C; line-height: 1.6; font-weight: 400; }
 .wufoo input { box-shadow: none; background: #FFF!important; border: 1px solid #b6b6b6; }
+@font-face {
+  font-family: 'proxima-nova';
+  url('http://funchess.leaplogic.net/css/fonts/proximanova-regular-webfont.ttf') format('ttf');
+}
