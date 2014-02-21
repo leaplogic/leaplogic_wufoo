@@ -14,6 +14,8 @@ html.embed { background-color: transparent!important; }
 .wufoo input, .wufoo textarea { box-shadow: none; background: #FFF!important; border: 1px solid #d5d5d5; padding: 5px; border-radius: 2px; }
 .wufoo .info { padding: 0 0 1.1em 0; }
 .wufoo form li { padding: 6px 0px 9px 0px; }
+form li div label, form li span label,
+.wufoo label.desc, .wufoo legend.desc { font-family: "proxima-nova2", helvetica, arial, sans-serif; }
 
 .wufoo input[type="submit"] {
   background: #585858!important;
