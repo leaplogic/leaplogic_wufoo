@@ -4,6 +4,8 @@ body {
    background: url(http://ethiopiaact.org/img/navBG.jpg) repeat-x center 150px, url(http://ethiopiaact.org/img/bodyBG.jpg) repeat;
 }
 
+div#document { margin-top: 15px; }
+
 .return { 
   width: 800px;
   margin-left: auto;
@@ -46,6 +48,12 @@ h1 {
 
 div#content {
   width: 100%;
+}
+div#content>p {
+  font-size: 20px;
+  color: #aaa;
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
 
 div#header {
