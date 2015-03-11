@@ -17,6 +17,9 @@ html.embed { background-color: transparent!important; }
 .wufoo li.name>span { width: 48%; }
 .wufoo .email input { width: 93%; }
 
+.wufoo .date input { text-align: left !important;}
+.wufoo .availability select { font-size: 12px !important; }
+.wufoo .hours select { font-size: 12px !important; }
 
 .wufoo label { text-align: left !important; }
 .wufoo .info { padding: 0 0 1.1em 0; }
