@@ -12,6 +12,13 @@ html.embed { background-color: transparent!important; }
 .wufoo .info h2 { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 19px; /* text-transform: uppercase; */ color: #1d1d1d; margin-bottom: 10px; letter-spacing: 1px; font-weight: normal; }
 .wufoo .info div { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 16px; color: #5C5C5C; line-height: 1.6; font-weight: 400; }
 .wufoo input, .wufoo textarea { box-shadow: none; background: #FFF!important; border: 1px solid #d5d5d5; padding: 5px; border-radius: 0; font-family: "proxima-nova2", helvetica, arial, sans-serif !important;}
+
+.wufoo .name input { width: 90%; }
+.wufoo li.name>span { width: 48%; }
+.wufoo .email input { width: 93%; }
+
+
+.wufoo label { text-align: left !important; }
 .wufoo .info { padding: 0 0 1.1em 0; }
 .wufoo form li { padding: 6px 0px 9px 0px; }
 form li div label, form li span label,
