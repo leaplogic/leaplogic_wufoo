@@ -6,17 +6,21 @@
     font-style: normal;
 }
 
-header h2 { display: none; }
+header#header { display: none; }
 .wufoo .info a { color: #1ABC9C!important; text-decoration: none;}
 html.embed { background-color: transparent!important; }
 .wufoo .info h2 { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 19px; /* text-transform: uppercase; */ color: #1d1d1d; margin-bottom: 10px; letter-spacing: 1px; font-weight: normal; }
 .wufoo .info div { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 16px; color: #5C5C5C; line-height: 1.6; font-weight: 400; }
-.wufoo input, .wufoo textarea { box-shadow: none; background: #FFF!important; border: 1px solid #d5d5d5; padding: 5px; border-radius: 0; font-family: "proxima-nova2", helvetica, arial, sans-serif !important;}
-
+.wufoo input, .wufoo textarea { box-shadow: none; background: #FFF!important; border: 1px solid #d5d5d5;padding: 7px 10px; border-radius: 0; font-family: "proxima-nova2", helvetica, arial, sans-serif !important;}
+.wufoo .info, .wufoo .paging-context {
+    border-bottom: none;
+}
+.pgStyle2 var { border-radius: 0;border-bottom: solid 5px #D62F27;background: none;border-right: none !important;box-shadow: none;}
+.pgStyle2 em {}
 .wufoo .name input { width: 90%; }
 .wufoo li.name>span { width: 48%; }
 .wufoo .email input { width: 93%; }
-.pgStyle2 td { border-radius: 0px; border: none; background: #f4f4f4; box-shadow: none;  }
+.pgStyle2 td { border-radius: 0px; border: none; background: #f4f4f4; box-shadow: none;padding: 0;}
 .wufoo .date input { text-align: left !important;}
 .wufoo .availability select { font-size: 12px !important; }
 .wufoo .hours select { font-size: 12px !important; }
@@ -26,21 +30,19 @@ html.embed { background-color: transparent!important; }
 .wufoo form li { padding: 6px 0px 9px 0px; }
 form li div label, form li span label,
 .wufoo label.desc, .wufoo legend.desc { font-family: "proxima-nova2", helvetica, arial, sans-serif;font-size: 15px !important; text-shadow: none; font-weight: normal;}
-
+form span.req {color: #D62F27 !important;}
 .wufoo input[type="submit"] {
   background: #585858!important;
-color: #FFF;
-text-transform: uppercase;
-
+  color: #FFF;
+  text-transform: uppercase;
   font-family: "proxima-nova2", helvetica, arial, sans-serif !important;
-
   font-size: 13px;
-padding: 8px 20px;
-letter-spacing: 1px;
-border: 0;
-border-radius: 2px;
-cursor: pointer;
+  padding: 8px 20px;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
 }
-.wufoo input[type="submit"]:hover { background: #108B73!important; }
+.wufoo input[type="submit"]:hover {background: #D62F27!important;}
 .wufoo li.focused { background-color: #FFFEDD!important; }
 .wufoo textarea.textarea { min-width: 96%; width: 97%;}
