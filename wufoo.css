@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-
+header h2 { display: none; }
 .wufoo .info a { color: #1ABC9C!important; text-decoration: none;}
 html.embed { background-color: transparent!important; }
 .wufoo .info h2 { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 19px; /* text-transform: uppercase; */ color: #1d1d1d; margin-bottom: 10px; letter-spacing: 1px; font-weight: normal; }
@@ -16,7 +16,7 @@ html.embed { background-color: transparent!important; }
 .wufoo .name input { width: 90%; }
 .wufoo li.name>span { width: 48%; }
 .wufoo .email input { width: 93%; }
-
+.pgStyle2 td { border-radius: 0px; border: none; background: #f4f4f4; box-shadow: none;  }
 .wufoo .date input { text-align: left !important;}
 .wufoo .availability select { font-size: 12px !important; }
 .wufoo .hours select { font-size: 12px !important; }
@@ -25,7 +25,7 @@ html.embed { background-color: transparent!important; }
 .wufoo .info { padding: 0 0 1.1em 0; }
 .wufoo form li { padding: 6px 0px 9px 0px; }
 form li div label, form li span label,
-.wufoo label.desc, .wufoo legend.desc { font-family: "proxima-nova2", helvetica, arial, sans-serif; font-size: 12px !important; text-shadow: none; font-weight: normal;}
+.wufoo label.desc, .wufoo legend.desc { font-family: "proxima-nova2", helvetica, arial, sans-serif;font-size: 15px !important; text-shadow: none; font-weight: normal;}
 
 .wufoo input[type="submit"] {
   background: #585858!important;
